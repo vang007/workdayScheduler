@@ -21,3 +21,10 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+#grid {
+  grid-row: 2;
+  column-span: 200;
+  width:100%; 
+  box-sizing:auto;
+}
+
