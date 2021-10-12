@@ -1,56 +1,36 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
-}
-
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
-}
-
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
-}
-
-#grid {
-  grid-row: 2;
-  column-span: 200;
-  width:100%; 
-  box-sizing:auto;
-}
-
-[contenteditable] {
-  outline: 0px solid transparent;
+h1, h4 {
+    text-align:center;
+    font-style: oblique;
+    font-weight: bolder;
 }
 
 .container {
-  width: 100%;
+    border: 12px #B22222;
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    padding: 5px;
+    outline-style: unset;
+    
 }
 
-#grid {
-  width: 25%
+.container #textbox {
+    outline: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-/* .grid-container {
-display: grid;
-grid-template-columns: auto auto auto auto;
-grid-gap: 10px;
-background-color: #2196F3;
-padding: 10px;
+#time {
+    position: relative;
+    left: 1.5%;
+    top: 12px;
+    font-size: larger;
 }
 
-.grid-container > div {
-background-color: rgba(255, 255, 255, 0.8);
-text-align: center;
-padding: 20px 0;
-font-size: 30px;
-} */
+.btn {
+    width: 80px;
+    padding: 5px;
+    margin: 0 3px;
+    outline: hidden;
+    margin-top: 8px;
+}
