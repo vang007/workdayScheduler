@@ -1,3 +1,9 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+}
+
 h1, h4 {
     text-align:center;
     font-style: oblique;
@@ -11,26 +17,20 @@ h1, h4 {
     margin-bottom: 15px;
     padding: 5px;
     outline-style: unset;
-    
+    width: 100%;
+    justify-content: center;
 }
 
-.container #textbox {
-    outline: hidden;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.row {
+    margin-bottom: 2px;
+    border-top: 1px;
+    white-space: normal;
+    height: 80px;
+    opacity: 0%;
 }
 
-#time {
-    position: relative;
-    left: 1.5%;
-    top: 12px;
-    font-size: larger;
+.timeblock {
+    padding-right: 10px;
 }
 
-.btn {
-    width: 80px;
-    padding: 5px;
-    margin: 0 3px;
-    outline: hidden;
-    margin-top: 8px;
-}
+#input 

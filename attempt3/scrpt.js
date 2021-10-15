@@ -7,11 +7,14 @@ var dateTime = date+' '+time;
 
 document.getElementById("displayDateTime").innerHTML = daylist[day] + ' <br>   ' + dateTime;
 
-function saveTasks() {
-    localStorage.setItem("tasks", JSON.stringify(tasks));
-}
+// function saveTasks() {
+//     localStorage.setItem("tasks", JSON.stringify(tasks));
+//}
+
+// var State = require('jsclass/src/state').State;
 
 // disable button 
-function disableButton(btn) {
-    document.getElementById(btn.id).disabled = true;
-    }
+// function disableButton(btn) {
+//     document.getElementById(btn.id).disabled = true;
+// }
+    
