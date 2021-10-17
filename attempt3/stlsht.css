@@ -26,21 +26,9 @@ h3, h5 {
     background-color: aquamarine;
 }
 
-/* #c1 {
-    align-self: right;
-    max-width: 10%;
-    columns: 10%;
+.container {
+    -ms-flex-item-align: auto;
 }
-
-#c2{
-    align-self: center;
-    columns: auto;
-}
-
-#c3 {
-    align-self: right;
-    columns: 20%; */
-/* } */
 
 .row {
     align-items: auto;
@@ -51,12 +39,21 @@ h3, h5 {
     background-color: lightseagreen;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .column {
     width: 100%;
-    }
-}
+} */
+
 #kliqN {
     font-size: auto;
     box-sizing: border-box;
+}
+
+.submit {
+    font-size: auto;
+    align-items: center;
+}
+
+#LnchMsg {
+    text-align: center;
 }

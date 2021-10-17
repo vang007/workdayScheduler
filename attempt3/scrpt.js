@@ -4,17 +4,22 @@ var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Sat
 var date = today.getMonth()+'-'+(today.getDate())+'-'+today.getFullYear();
 var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 var dateTime = date+' '+time;
+// var sbmtrslt = getElementById("sbmtrslt");
 
 document.getElementById("displayDateTime").innerHTML = daylist[day] + ' <br>   ' + dateTime;
 
-// function saveTasks() {
-//     localStorage.setItem("tasks", JSON.stringify(tasks));
-//}
 
-// var State = require('jsclass/src/state').State;
+// save to local storage using setItem Method (borrowed from user stackoverflow)
+// localStorage.setItem("rslt", 'testValue')
 
-// disable button 
-// function disableButton(btn) {
-//     document.getElementById(btn.id).disabled = true;
-// }
-    
+
+
+// document.getElementById("rslt").innerHTML = localStorage.getItem("sbmtrslt");
+
+// Retrieve
+// localStorage.setItem(`clickSubmit`, "submit");
+
+// function store(){
+//     localStorage.setItem("email", inputEmail.value);
+//     }
+
