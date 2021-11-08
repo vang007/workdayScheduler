@@ -42,7 +42,7 @@ $('.hour-button').on('click', function(e) {
 //this funciton will run on page load
 function init() {
 //whgen page loads, go into local storage and if there is a value for a specific hour, put it in the textarea
-for(let i=8; i<13; i++) {
+for(let i=8; i<18; i++) {
     let storedData = getLocalStorage(`hour-${i}`);
     console.log(storedData)
     let selector = `#input-hour-${i}`;
