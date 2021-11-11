@@ -11,8 +11,7 @@ document.getElementById("displayDateTime").innerHTML = daylist[day] + ' <br>   '
 
 // local storage variable //
 
-//everytime im working with localstorage i write these functions
-//we need to be able to GET the data from localstorage
+
 function getLocalStorage(key) {
     if( localStorage.getItem(key)) {
         return JSON.parse(localStorage.getItem(key));
